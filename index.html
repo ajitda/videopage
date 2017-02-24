@@ -1,0 +1,333 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+<section class="header">
+    <div class="container">
+          <div class="row">
+              <div class="col-md-12">
+                  <h1><span>DEV HERO</span></h1>
+              </div>
+          </div>
+      </div>
+</section>
+      
+       <section class="video-sction">
+           <div class="container">
+               <div class="row">
+                   <div class="col-md-3">
+                       <div class="single_video" style="text-align:center">
+                            <div class="overlay">
+                                <span data-toggle="modal" data-target="#myModal1" onclick="playPause()"><img src="img/video_play_icon.png" alt=""></span>
+                              <h3>PLAY VIDEO</h3>
+                              <span class="video_no active">1</span>
+                             </div>
+                             <div class="video">
+                                  <video height="200px" width="100%">
+                                    <source src="videos/small_cuty_cat.mp4" type="video/mp4">
+                                    Your browser does not support HTML5 video.
+                                  </video>
+                              </div>
+                            <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" onclick="playPause()">
+                              <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <button type="button" class="close" onclick="pause()" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                  </div>
+                                  <div class="modal-body modal-lg">
+                                    <video id="video1" width="100%" controls>
+                                        <source src="videos/small_cuty_cat.mp4" type="video/mp4">
+                                        Your browser does not support HTML5 video.
+                                      </video>
+                                  </div>
+                                  <div class="modal-footer">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div> 
+                   </div>
+                   <div class="col-md-3">
+                       <div class="single_video" style="text-align:center">
+                            <div class="overlay">
+                                <span data-toggle="modal" data-target="#myModal2" onclick="playPause()"><img src="img/video_play_icon.png" alt=""></span>
+                              <h3>PLAY VIDEO</h3>
+                              <span class="video_no">2</span>
+                             </div>
+                             <div class="video">
+                                  <video width="100%">
+                                    <source src="videos/small_cuty_cat.mp4" type="video/mp4">
+                                    Your browser does not support HTML5 video.
+                                  </video>
+                              </div>
+                            <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                              <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="playPause()"><span aria-hidden="true">&times;</span></button>
+                                  </div>
+                                  <div class="modal-body modal-lg">
+                                    <video id="video1" width="100%" controls>
+                                        <source src="videos/small_cuty_cat.mp4" type="video/mp4">
+                                        Your browser does not support HTML5 video.
+                                      </video>
+                                  </div>
+                                  <div class="modal-footer">
+                                    
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div> 
+                   </div>
+                   <div class="col-md-3">
+                       <div class="single_video" style="text-align:center">
+                            <div class="overlay">
+                                <span data-toggle="modal" data-target="#myModal3" onclick="playPause()"><img src="img/video_play_icon.png" alt=""></span>
+                              <h3>PLAY VIDEO</h3>
+                              <span class="video_no">3</span>
+                             </div>
+                             <div class="video">
+                                  <video height="200px" width="100%">
+                                    <source src="videos/small_cuty_cat.mp4" type="video/mp4">
+                                    Your browser does not support HTML5 video.
+                                  </video>
+                              </div>
+                            <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                              <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="playPause()"><span aria-hidden="true">&times;</span></button>
+                                  </div>
+                                  <div class="modal-body modal-lg">
+                                    <video id="video1" width="100%" controls>
+                                        <source src="videos/small_cuty_cat.mp4" type="video/mp4">
+                                        Your browser does not support HTML5 video.
+                                      </video>
+                                  </div>
+                                  <div class="modal-footer">
+                                    
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div> 
+                   </div>
+                   <div class="col-md-3">
+                       <div class="single_video" style="text-align:center">
+                            <div class="overlay">
+                                <span data-toggle="modal" data-target="#myModal4" onclick="playPause()"><img src="img/video_play_icon.png" alt=""></span>
+                              <h3>PLAY VIDEO</h3>
+                              <span class="video_no">4</span>
+                             </div>
+                             <div class="video">
+                                  <video width="100%">
+                                    <source src="videos/small_cuty_cat.mp4" type="video/mp4">
+                                    Your browser does not support HTML5 video.
+                                  </video>
+                              </div>
+                            <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                              <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="playPause()"><span aria-hidden="true">&times;</span></button>
+                                  </div>
+                                  <div class="modal-body modal-lg">
+                                    <video id="video1" width="100%" controls>
+                                        <source src="videos/small_cuty_cat.mp4" type="video/mp4">
+                                        Your browser does not support HTML5 video.
+                                      </video>
+                                  </div>
+                                  <div class="modal-footer">
+                                    
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div> 
+                   </div>
+               </div>
+               <div class="row">
+                   <div class="col-md-3">
+                       <div class="single_video" style="text-align:center">
+                            <div class="overlay">
+                                <span data-toggle="modal" data-target="#myModal5" onclick="playPause()"><img src="img/video_play_icon.png" alt=""></span>
+                              <h3>PLAY VIDEO</h3>
+                              <span class="video_no">5</span>
+                             </div>
+                             <div class="video">
+                                  <video width="100%">
+                                    <source src="videos/small_cuty_cat.mp4" type="video/mp4">
+                                    Your browser does not support HTML5 video.
+                                  </video>
+                              </div>
+                            <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                              <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="playPause()"><span aria-hidden="true">&times;</span></button>
+                                  </div>
+                                  <div class="modal-body modal-lg">
+                                    <video id="video1" width="100%" controls>
+                                        <source src="videos/small_cuty_cat.mp4" type="video/mp4">
+                                        Your browser does not support HTML5 video.
+                                      </video>
+                                  </div>
+                                  <div class="modal-footer">
+                                    
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div> 
+                   </div>
+                   <div class="col-md-3">
+                       <div class="single_video" style="text-align:center">
+                            <div class="overlay">
+                                <span data-toggle="modal" data-target="#myModal6" onclick="playPause()"><img src="img/video_play_icon.png" alt=""></span>
+                              <h3>PLAY VIDEO</h3>
+                              <span class="video_no">6</span>
+                             </div>
+                             <div class="video">
+                                  <video width="100%">
+                                    <source src="videos/small_cuty_cat.mp4" type="video/mp4">
+                                    Your browser does not support HTML5 video.
+                                  </video>
+                              </div>
+                            <div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                              <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="playPause()"><span aria-hidden="true">&times;</span></button>
+                                  </div>
+                                  <div class="modal-body modal-lg">
+                                    <video id="video1" width="100%" controls>
+                                        <source src="videos/small_cuty_cat.mp4" type="video/mp4">
+                                        Your browser does not support HTML5 video.
+                                      </video>
+                                  </div>
+                                  <div class="modal-footer">
+                                    
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div> 
+                   </div>
+                   <div class="col-md-3">
+                       <div class="single_video" style="text-align:center">
+                            <div class="overlay">
+                                <span data-toggle="modal" data-target="#myModal7" onclick="playPause()"><img src="img/video_play_icon.png" alt=""></span>
+                              <h3>PLAY VIDEO</h3>
+                              <span class="video_no">7</span>
+                             </div>
+                             <div class="video">
+                                  <video width="100%">
+                                    <source src="videos/small_cuty_cat.mp4" type="video/mp4">
+                                    Your browser does not support HTML5 video.
+                                  </video>
+                              </div>
+                            <div class="modal fade" id="myModal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                              <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="playPause()"><span aria-hidden="true">&times;</span></button>
+                                  </div>
+                                  <div class="modal-body modal-lg">
+                                    <video id="video1" width="100%" controls>
+                                        <source src="videos/small_cuty_cat.mp4" type="video/mp4">
+                                        Your browser does not support HTML5 video.
+                                      </video>
+                                  </div>
+                                  <div class="modal-footer">
+                                    
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div> 
+                   </div>
+                   <div class="col-md-3">
+                       <div class="single_video" style="text-align:center">
+                            <div class="overlay">
+                                <span data-toggle="modal" data-target="#myModal8" onclick="playPause()"><img src="img/video_play_icon.png" alt=""></span>
+                              <h3>PLAY VIDEO</h3>
+                              <span class="video_no">8</span>
+                             </div>
+                             <div class="video">
+                                  <video width="100%">
+                                    <source src="videos/small_cuty_cat.mp4" type="video/mp4">
+                                    Your browser does not support HTML5 video.
+                                  </video>
+                              </div>
+                            <div class="modal fade" id="myModal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                              <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="playPause()"><span aria-hidden="true">&times;</span></button>
+                                  </div>
+                                  <div class="modal-body modal-lg">
+                                    <video id="video1" width="100%">
+                                        <source src="videos/small_cuty_cat.mp4" type="video/mp4">
+                                        Your browser does not support HTML5 video.
+                                      </video>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <h3>only <span>$97</span>/Month - Cancel Anytime!</h3>
+                                    <button class="btn btn-primary buy_btn">BUY NOW</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div> 
+                   </div>
+               </div>
+           </div>
+       </section>
+        <script> 
+
+		var htmlPlayer = document.getElementsByTagName('video');
+
+		function playPause() {
+		  for(var i = 0; i < htmlPlayer.length; i++){
+			htmlPlayer[i].pause();
+		  }
+		}
+        </script>
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/npm.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>
